@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Playing Horizon City Roleplay", "Watching All Channels And Messages"] , "Watching 1k+ Members"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["Playing Horizon City Roleplay", "Watching 1K+ Members"
+const statusTypes = [ 'dnd', 'idle']
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
